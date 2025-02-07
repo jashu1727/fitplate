@@ -3,22 +3,34 @@
     padding: 0;
     border: border-box;
 }
-
+body {
+    background-image: url(pexels-alexazabache-3766257.jpg);
+        background-size: cover; 
+        background-repeat: no-repeat;  /* Prevents the image from repeating */
+        background-position: center center; /* Centers the image */
+        height: 100vh; ;/* Ensures it covers the full viewport height */
+        width: 100vw;
+        overflow: hidden;
+    }
+    
 /** Pannel **/
 .pannel {
     display: flex;
-    background-color: blanchedalmond ;
+    background-color: transparent;
     align-items: center;
     height: 30px;
     justify-content: space-between;
+    font-size: 25px;
+    margin-top: 10px;
 }
 
 .logo {
-    margin-left: 5px;
+    margin-left: 20px;
 }
 
 .pannel-opt {
     width: 30%;
+    color: aliceblue;
 }
 .pannel-opt a {
     padding-left: 20px;
