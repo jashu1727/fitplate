@@ -8,7 +8,8 @@
     font-weight: 700;
     font-style: normal;
     display: flex;
-    width: 70%;
+    width: 65%;
+    color: darkgrey;
   }
 body {
    /** background-image: url(pexels-alexazabache-3766257.jpg);*/
@@ -36,10 +37,26 @@ body {
 }
 
 .pannel-opt {
-    width: 70%;
-    color: black;
+    width: 50%;
+    color: darkgrey;
     display: flex;
 }
-.pannel-opt a {
-    padding-left: 30px;
+.opt-2 {
+    cursor: none;
+     padding-left: 60px;
 }
+ .opt-3 {
+    cursor: none;
+    padding-left: 60px;
+ }
+
+ .opt-1:hover {
+    color: black;
+    cursor: none;
+ }
+ .opt-2:hover {
+    color: black;
+ }
+ .opt-3:hover {
+    color: black;
+ }
