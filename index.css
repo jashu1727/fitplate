@@ -3,22 +3,24 @@
     padding: 0;
     border: border-box;
 }
+/*Pannel font*/
 .kanit-black {
     font-family: "Kanit", serif;
     font-weight: 700;
     font-style: normal;
     display: flex;
-    width: 65%;
+    width: 70%;
     color: darkgrey;
   }
 body {
-   /** background-image: url(pexels-alexazabache-3766257.jpg);*/
+        background-image: url(risen-wang-20jX9b35r_M-unsplash.jpg);
         background-size: cover; 
-        background-repeat: no-repeat;  /* Prevents the image from repeating */
-        background-position: center center; /* Centers the image */
-        height: 100vh; ;/* Ensures it covers the full viewport height */
+        background-repeat: no-repeat;  
+        background-position: center center; 
+        height: 100vh; ;
         width: 100vw;
         overflow: hidden;
+        backdrop-filter: blur(0.1px);
     }
     
 /** Pannel **/
@@ -40,23 +42,43 @@ body {
     width: 50%;
     color: darkgrey;
     display: flex;
+    
 }
 .opt-2 {
-    cursor: none;
      padding-left: 60px;
 }
  .opt-3 {
-    cursor: none;
+    padding-left: 60px;
+ }
+ .opt-4 {
     padding-left: 60px;
  }
 
  .opt-1:hover {
-    color: black;
-    cursor: none;
+    color: white;
+    cursor: pointer;
  }
  .opt-2:hover {
-    color: black;
+    color: white;
+    cursor: pointer;
  }
  .opt-3:hover {
-    color: black;
+    color: white;
+    cursor: pointer;
  }
+ .opt-4:hover {
+    color: white;
+    cursor: pointer;
+ }
+.location-icon {
+    padding-left: 240px;
+    color: white;
+}
+.drop-down {
+    padding-left: 30px;
+    color: white ;
+}
+.profile {
+    color: white;
+    padding-left: 30px;
+}
